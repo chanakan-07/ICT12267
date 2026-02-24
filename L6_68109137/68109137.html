@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Back to the Future Review</title>
+  <link rel="stylesheet" href="68109137.css">
+</head>
+<body>
+
+<!-- NAVBAR (Plus Feature: Sticky Nav) -->
+<nav class="navbar">
+  <h2>🎥 TimeFlix</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+  </ul>
+</nav>
+
+<!-- HERO BANNER -->
+<header id="home" class="hero">
+  <div class="hero-content">
+    <h1>Back to the Future Trilogy</h1>
+    <p>รีวิวครบทุกภาค ไทม์แมชชีนในตำนาน</p>
+    <button>ดูรีวิว</button>
+  </div>
+</header>
+
+<!-- HEADING -->
+<section class="section-title">
+  <h2>🎬 ภาพยนตร์ทั้งหมด</h2>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQiAUI52_-niASQabl_PqdkJQ-moVziM6ahfiYkZW9NSnhcciNw">
+  <img src="https://m.media-amazon.com/images/M/MV5BMTNlOTRmOTEtMTAyMi00NjFiLTk3NDMtNWI0YzA3ZTZlYjZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdyoGBecpxNzaHL1QsEDwHKUqPzQa79UuUrXvPJmD9yfIrDf0t">
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQiAUI52_-niASQabl_PqdkJQ-moVziM6ahfiYkZW9NSnhcciNw">
+</section>
+
+<!-- CARDS -->
+<section id="reviews" class="cards">
+
+  <div class="card">
+    <h3>ภาค 1 (1985)</h3>
+    <p>จุดเริ่มต้นของการผจญภัยข้ามเวลา Marty และ Doc กับ DeLorean</p>
+    <a href="https://www.blockdit.com/posts/602f515483c5050bd2a2b0c8" class="btn">อ่านรีวิว by Alone Time</a>
+  </div>
+
+  <div class="card">
+    <h3>ภาค 2 (1989)</h3>
+    <p>อนาคตปี 2015 + เส้นเวลาแตกแขนง เรื่องราวซับซ้อนขึ้น</p>
+    <a href="https://pantip.com/topic/42322728" class="btn">อ่านรีวิว by Pacharapon</a>
+  </div>
+
+  <div class="card">
+    <h3>ภาค 3 (1990)</h3>
+    <p>ย้อนสู่อดีตยุคคาวบอย ปิดไตรภาคอย่างสมบูรณ์</p>
+    <a href="https://10000tip.com/2016/08/07/back-to-the-future-part-iii-1990-%E0%B9%80%E0%B8%88%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B8%95-%E0%B8%A0%E0%B8%B2%E0%B8%84-3/" class="btn">อ่านรีวิว By 10000tip</a>
+  </div>
+
+  <div class="card">
+    <h3>คะแนนรวม</h3>
+    <p>หนึ่งในไตรภาคที่ดีที่สุดตลอดกาล สนุกทุกภาค</p>
+    <a href="https://www.tiktok.com/@acerf1e" class="btn">คะเเนน by acerf</a>
+  </div>
+
+</section>
+
+<!-- BACK TO TOP (Plus Feature) -->
+<button id="topBtn">↑</button>
+
+<!-- FOOTER -->
+<footer>
+  <p>TimeFlix Movie Reviews</p>
+  <p>© 2026</p>
+  <p>68109137 นาย ชนกันต์ สุขะ</p>
+  <div class="social">
+    <a href="https://www.instagram.com/plub_errrr?igsh=Zndtcmo3NG1sZWpp&utm_source=qr">Instagram</a>
+  </div>
+</footer>
+
+<script>
+const btn = document.getElementById("topBtn");
+window.onscroll = () => {
+  btn.style.display = window.scrollY > 300 ? "block" : "none";
+};
+btn.onclick = () => window.scrollTo({top:0,behavior:"smooth"});
+</script>
+
+
+</body>
+</html>
